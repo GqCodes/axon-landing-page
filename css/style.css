@@ -296,7 +296,10 @@ input {
 
 /*======== About ========*/
 .about__data {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about__container {
@@ -305,6 +308,7 @@ input {
 
 .about__description {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .about__img {
@@ -334,6 +338,10 @@ input {
 .about__img-one:hover,
 .about__img-two:hover {
   transform: scale(1.1);
+}
+
+.about__data .button {
+  border-radius: 100px;
 }
 
 /*======== Discover ========*/
@@ -447,6 +455,8 @@ input {
   background: url('https://images.pexels.com/photos/998499/pexels-photo-998499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat
     center center / cover;
   height: 600px;
+  /* parallax effect */
+  background-attachment: fixed;
 }
 
 .overlay {
