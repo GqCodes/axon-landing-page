@@ -186,7 +186,6 @@ input {
 }
 
 .nav__link {
-  /* color: var(--text-color-light); */
   color: var(--white-color);
   font-weight: 600;
   text-transform: uppercase;
@@ -372,7 +371,6 @@ input {
 .discover__img {
   transition: 0.3s;
   height: 300px;
-  /* width: 300px; */
 }
 
 .discover__img:hover {

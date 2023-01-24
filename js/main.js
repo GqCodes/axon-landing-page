@@ -16,27 +16,26 @@ if (navClose) {
     navMenu.classList.remove('show-menu');
   });
 }
-/*====== CLOSE MENU ======*/
 
+/*====== CLOSE MENU ======*/
 const navLink = document.querySelectorAll('.nav__link');
 
 function linkAction() {
-  // when we click on each nav__link, we remove the show menu class to close the mobile menu
+  // when each nav__link is clicked, remove the show menu class to close the mobile menu
   navMenu.classList.remove('show-menu');
 }
 navLink.forEach((n) => n.addEventListener('click', linkAction));
 
-/* Change Header Background */
+/*====== Change Header Background ======*/
 function scrollHeader() {
   const header = document.getElementById('header');
-
   // when scroll is greater than 100vh, add the scroll-header class
   if (this.scrollY >= 100) header.classList.add('scroll-header');
   else header.classList.remove('scroll-header');
 }
 window.addEventListener('scroll', scrollHeader);
 
-/* Swiper */
+/*====== Swiper ======*/
 var swiper = new Swiper('.mySwiper', {
   effect: 'coverflow',
   grabCursor: true,
@@ -56,7 +55,7 @@ var swiper = new Swiper('.mySwiper', {
   },
 });
 
-/* VIDEO */
+/*====== VIDEO ======*/
 const videoFile = document.getElementById('video-file'),
   videoButton = document.getElementById('video-button'),
   videoIcon = document.getElementById('video-icon');
@@ -84,11 +83,10 @@ function finalVideo() {
   videoIcon.classList.remove('ri-pause-line');
   videoIcon.classList.add('ri-play-line');
 }
-
 // when video ends
 videoFile.addEventListener('ended', finalVideo);
 
-/* Show Scoll Up */
+/*====== Show Scoll Up ======*/
 function scrollUp() {
   const scrollUp = document.getElementById('scroll-up');
   // when the scroll is higher than 200vh add the show scroll class to the a tag with the scoll-up class
