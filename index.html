@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- REMIXICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="home-line.svg" type="image/x-icon" />
+    <!-- JavaScript -->
+    <script src="js/main.js" defer></script>
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <title>Axon Investment Group</title>
+  </head>
+
+  <body>
+    <!--========== Header ==========-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Axon Investment <br />Group</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#discover" class="nav__link">Discover</a>
+            </li>
+            <li class="nav__item">
+              <a href="#mission" class="nav__link">Mission</a>
+            </li>
+            <li class="nav__item">
+              <a href="#gallery" class="nav__link">Gallery</a>
+            </li>
+          </ul>
+
+          <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-4-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--========== Main ==========-->
+    <main class="main">
+      <!--========== Home ==========-->
+      <section class="home" id="home">
+        <video autoplay muted loop class="home__img">
+          <source src="/assets/video2.mp4" type="video/mp4" />
+        </video>
+
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__data-title">
+              Investing For Tommorrow <br />
+              Starts Today <br />
+            </h1>
+            <a href="#" class="button home__button">Learn More</a>
+          </div>
+
+          <div class="home__social">
+            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+              <i class="ri-facebook-box-fill"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a href="https://www.twitter.com/" target="_blank" class="home__social-link">
+              <i class="ri-twitter-fill"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--========== About ==========-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Real Estate Investing <br />
+              Market Experts
+            </h2>
+            <p class="about__description">
+              Axon Investment Group is one of the premier real estate finance firms in the country. The Axon brand has established a
+              reputation of finance excellence for every asset type, which makes the firm highly versatile and unique in today's real estate
+              marketplace.
+            </p>
+            <p class="about__description">
+              We target locations where we believe experienced, specialized investment managers like Axon Group have a distinct advantage.
+            </p>
+            <a href="#" class="button">Our Firm</a>
+          </div>
+
+          <div class="about__img">
+            <div class="about__img-overlay">
+              <img
+                src="https://images.pexels.com/photos/5922322/pexels-photo-5922322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="about__img-one"
+              />
+            </div>
+            <div class="about__img-overlay">
+              <img
+                src="https://images.pexels.com/photos/5847753/pexels-photo-5847753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="about__img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--========== Discover ==========-->
+      <section class="discover section" id="discover">
+        <h2 class="section__title">
+          Discover the leaders <br />
+          of Our Executive Team
+        </h2>
+
+        <div class="discover__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Discover 1 -->
+            <div class="discover__card swiper-slide">
+              <img
+                src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Katherine Ruiz</h2>
+                <span class="discover__description"> Managing Director </span>
+              </div>
+            </div>
+            <!-- Discover 2 -->
+            <div class="discover__card swiper-slide">
+              <img
+                src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Carl Powers</h2>
+                <span class="discover__description"> President</span>
+              </div>
+            </div>
+            <!-- Discover 3 -->
+            <div class="discover__card swiper-slide">
+              <img
+                src="https://images.pexels.com/photos/5717546/pexels-photo-5717546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Emma Wilkins</h2>
+                <span class="discover__description"> VP Client Relations </span>
+              </div>
+            </div>
+            <!-- Discover 4 -->
+            <div class="discover__card swiper-slide">
+              <img
+                src="https://images.pexels.com/photos/3206114/pexels-photo-3206114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Dustin Baker</h2>
+                <span class="discover__description">Portfolio Manager</span>
+              </div>
+            </div>
+            <!-- Discover 5 -->
+            <div class="discover__card swiper-slide">
+              <img
+                src="https://images.pexels.com/photos/8353841/pexels-photo-8353841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="discover__img"
+              />
+              <div class="discover__data">
+                <h2 class="discover__title">Caleb Nelson</h2>
+                <span class="discover__description"> Portfolio Manager</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--========== Experience ==========-->
+      <section class="experience section">
+        <h2 class="section__title">
+          dedicated portfolio management team <br />
+          with an average 30+ years of experience.
+        </h2>
+
+        <div class="experience__container container grid">
+          <div class="experience__content grid">
+            <div class="experience__data">
+              <h2 class="experience__number">52</h2>
+              <span class="experience__description"
+                >Year <br />
+                Experience</span
+              >
+            </div>
+
+            <div class="experience__data">
+              <h2 class="experience__number">732</h2>
+              <span class="experience__description"
+                >Deals <br />
+                Funded</span
+              >
+            </div>
+
+            <div class="experience__data">
+              <h2 class="experience__number">$1.9</h2>
+              <span class="experience__description"
+                >Billion<br />
+                Invested</span
+              >
+            </div>
+          </div>
+
+          <div class="experience__img grid">
+            <div class="experience__overlay">
+              <img
+                src="https://images.pexels.com/photos/931887/pexels-photo-931887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="experience__img-one"
+              />
+            </div>
+
+            <div class="experience__overlay">
+              <img
+                src="https://images.pexels.com/photos/259239/pexels-photo-259239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt=""
+                class="experience__img-two"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--========== Mission ==========-->
+      <section class="mission section" id="mission">
+        <div class="overlay">
+          <div class="mission-inner">
+            <!-- <h3>Axon Group at a glance</h3> -->
+            <h2>Our Firm</h2>
+            <p>
+              Axon Investment Group has the capital and international reputation for executing versatile and flexible lending practices for
+              all asset types. This way, we fulfill a unique need in today's commercial real estate marketplace.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--========== Video Tour ==========-->
+      <section class="video section">
+        <h2 class="section__title">Video Tour</h2>
+
+        <div class="video__container container">
+          <p class="video__description">Take a tour inside our offices and get a glimpse of what we are about.</p>
+          <div class="video__content">
+            <video id="video-file">
+              <source src="assets/officetour.mp4" />
+            </video>
+
+            <button class="button button--flex video__button" id="video-button">
+              <i class="ri-play-line video__button-icon" id="video-icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--========== Gallery ==========-->
+      <section class="grid__gallery" id="gallery">
+        <div class="gallery">
+          <!--  -->
+          <a href="#" target="_blank">
+            <img
+              src="https://images.pexels.com/photos/290275/pexels-photo-290275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </a>
+          <!--  -->
+          <a href="#">
+            <img
+              src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </a>
+          <!--  -->
+          <a href="#">
+            <video autoplay loop muted>
+              <source src="assets/galleryvideo1.mp4" type="video/mp4" />
+            </video>
+            <!-- <img src="https://i.ibb.co/xSnHP7g/gal43884.jpg" alt="" /> -->
+          </a>
+          <a href="#">
+            <img
+              src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </a>
+          <!--  -->
+          <a href="#">
+            <img
+              src="https://images.pexels.com/photos/2448764/pexels-photo-2448764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+          </a>
+          <!--  -->
+          <a href="#">
+            <video autoplay loop muted>
+              <source src="assets/pexels-thirdman-5582831.mp4" type="video/mp4" />
+            </video>
+          </a>
+        </div>
+      </section>
+
+      <!--========== Subscribe ==========-->
+      <section class="subscribe section">
+        <div class="subscribe__bg">
+          <div class="subscribe__container container">
+            <h2 class="section__title subscribe__title">Stay Informed</h2>
+            <p class="subscribe__description">
+              Subscribe for our current prospectus and stay up to date on our most exciticing investments opportunities.
+            </p>
+
+            <form action="" class="subscribe__form">
+              <input type="text" placeholder="Enter email" class="subscribe__input" />
+              <button class="button">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--========== Footer ==========-->
+      <footer class="footer section">
+        <div class="footer__container container grid">
+          <div class="footer__content grid">
+            <div class="footer__data">
+              <h3 class="footer__title">Axon Investment Group</h3>
+              <p class="footer__description">
+                101 Avenue of the Americas <br />
+                New York, NY, 10013 <br />
+                +1-212-555-5555
+              </p>
+
+              <div>
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                  <i class="ri-facebook-box-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                  <i class="ri-instagram-fill"></i>
+                </a>
+
+                <a href="https://twitter.com/" target="_blank" class="footer__social">
+                  <i class="ri-twitter-fill"></i>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" class="footer__social">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="footer__data">
+              <h3 class="footer__subtitle">Client Service</h3>
+              <ul>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Concierge</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Sales Leadership</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Private Exclusives</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__data">
+              <h3 class="footer__subtitle">Company</h3>
+              <ul>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Team</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Investors</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Become an associate</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__data">
+              <h3 class="footer__subtitle">Support</h3>
+              <ul>
+                <li class="footer__item">
+                  <a href="" class="footer__link">FAQs</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Newsroom</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer__rights">
+            <p class="footer__copy">&#169; 2022 Axon Investment Group. All rigths reserved.</p>
+            <div class="footer__terms">
+              <a href="#" class="footer__terms-link">Terms & Agreements</a>
+              <a href="#" class="footer__terms-link">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!--========== Scroll Up ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+  </body>
+</html>
