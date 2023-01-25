@@ -412,10 +412,11 @@ input {
   font-size: var(--h2-font-size);
   font-weight: 600;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .experience__description {
-  font-size: var(--small-font-size);
+  font-size: var(--h3-font-size);
 }
 
 .experience__img {
@@ -438,13 +439,13 @@ input {
 }
 
 .experience__overlay:nth-child(1) {
-  width: 262px;
+  /* width: 262px; */
   margin-right: 2rem;
 }
 
 .experience__overlay:nth-child(2) {
   position: absolute;
-  width: 120px;
+  /* width: 120px; */
   top: 2rem;
   right: 0;
 }
