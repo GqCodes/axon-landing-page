@@ -424,6 +424,7 @@ input {
 .experience__img {
   position: relative;
   padding-bottom: 2rem;
+  height: auto;
 }
 
 .experience__img-one,
@@ -688,10 +689,10 @@ input {
     padding: 0;
   }
   .experience__overlay:nth-child(1) {
-    width: 190px;
+    /* width: 190px; */
   }
   .experience__overlay:nth-child(2) {
-    width: 80px;
+    /* width: 80px; */
   }
 
   .experience__img,
