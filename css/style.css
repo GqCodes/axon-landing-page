@@ -718,16 +718,18 @@ input {
   }
   .experience__overlay:nth-child(1) {
     width: 262px;
+    height: auto;
     margin-right: 2rem;
   }
   .experience__overlay:nth-child(2) {
     position: absolute;
     width: 120px;
+    height: auto;
     top: 2rem;
     right: 0;
   }
   .experience__img {
-    height: auto;
+    /* height: auto; */
   }
 }
 
