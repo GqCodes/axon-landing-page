@@ -425,6 +425,7 @@ input {
   position: relative;
   padding-bottom: 2rem;
   height: auto;
+  display: flex;
 }
 
 .experience__img-one,
