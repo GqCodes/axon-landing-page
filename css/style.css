@@ -504,6 +504,7 @@ input {
 
 .video__content {
   position: relative;
+  display: block;
 }
 
 .video__button {
