@@ -460,8 +460,6 @@ input {
   background: url('https://images.pexels.com/photos/998499/pexels-photo-998499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat
     center center / cover;
   height: 600px;
-  /* parallax effect */
-  background-attachment: fixed;
 }
 
 .overlay {
@@ -495,7 +493,7 @@ input {
 .mission-inner p {
   font-size: 1.5rem;
   margin-top: 1rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.25px;
 }
 
 /*======== Video ========*/
@@ -728,9 +726,6 @@ input {
     top: 2rem;
     right: 0;
   }
-  .experience__img {
-    /* height: auto; */
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -831,6 +826,10 @@ input {
   }
   .experience__overlay:nth-child(2) {
     width: 160px;
+  }
+  .mission {
+    /* parallax effect */
+    background-attachment: fixed;
   }
   .grid__gallery .gallery {
     display: grid;
