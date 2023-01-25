@@ -257,8 +257,10 @@ input {
   max-width: 200px;
   margin: 0 auto;
 }
+
 .home__data .button {
   border-radius: 100px;
+  background-color: #46a0ac;
 }
 
 /* BUTTONS */
@@ -338,6 +340,10 @@ input {
 
 .about__data .button {
   border-radius: 100px;
+  background-color: #46a0ac;
+}
+.about__data .button:hover {
+  background-color: var(--first-color-alt);
 }
 
 /*======== Discover ========*/
@@ -513,6 +519,7 @@ input {
   bottom: -1rem;
   padding: 1rem 1.5rem;
   border-radius: 50px;
+  background-color: #46a0ac;
 }
 .video__button-icon {
   font-size: 1.2rem;
@@ -549,13 +556,14 @@ input {
 
 /*======== Subscribe ========*/
 .subscribe__bg {
-  background-color: var(--first-color-second);
+  /* background-color: var(--first-color-second); */
+  background-color: var(--white-color);
   padding: 2.5rem 0;
 }
 
 .subscribe__title,
 .subscribe__description {
-  color: var(--white-color);
+  color: var(--first-color);
 }
 
 .subscribe__description {
@@ -564,10 +572,25 @@ input {
 }
 
 .subscribe__form {
-  background-color: var(--input-color);
+  background-color: #2a676f;
   padding: 0.5rem;
   display: flex;
   justify-content: space-between;
+  border-radius: 4px;
+}
+
+.subscribe__form button {
+  background-color: var(--white-color);
+  color: var(--first-color);
+  border-radius: 100px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.subscribe__form button:hover {
+  color: var(--white-color);
+  border: 1px solid var(--white-color);
+  background-color: #2a676f;
 }
 
 .subscribe__input {
@@ -575,6 +598,8 @@ input {
   padding-right: 0.5rem;
   background-color: var(--input-color);
   color: var(--text-color);
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
 
 .subscribe__input::placeholder {
@@ -654,8 +679,8 @@ input {
   position: fixed;
   right: 1rem;
   bottom: -20%;
-  background-color: var(--first-color);
-  padding: 0.25rem;
+  background-color: #2a676f;
+  padding: 0.35rem;
   display: flex;
   opacity: 0.9;
   z-index: 10;
@@ -877,19 +902,20 @@ input {
   }
 
   .subscribe__bg {
-    background: none;
+    /* background: none; */
     padding: 0;
   }
-  .subscribe__container {
-    background-color: var(--first-color-second);
+  .subscribe__bg .subscribe__container {
+    background-color: var(--white-color);
     padding: 3.5rem 0;
   }
   .subscribe__input {
     padding: 0 0.5rem;
   }
   .footer__rights {
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
