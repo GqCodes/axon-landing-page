@@ -424,7 +424,7 @@ input {
 .experience__img {
   position: relative;
   padding-bottom: 2rem;
-  height: 100%;
+  height: 200px;
   display: flex;
 }
 
@@ -713,6 +713,9 @@ input {
     width: 120px;
     top: 2rem;
     right: 0;
+  }
+  .experience__img {
+    height: auto;
   }
 }
 
