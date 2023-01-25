@@ -424,7 +424,7 @@ input {
 .experience__img {
   position: relative;
   padding-bottom: 2rem;
-  height: 200px;
+  /* height: 200px; */
   display: flex;
 }
 
@@ -440,6 +440,18 @@ input {
 
 .experience__overlay {
   overflow: hidden;
+}
+.experience__overlay:nth-child(1) {
+  width: 262px;
+  height: 200px;
+  margin-right: 2rem;
+}
+.experience__overlay:nth-child(2) {
+  position: absolute;
+  width: 120px;
+  height: 150px;
+  top: 2rem;
+  right: 0;
 }
 
 /*======== Mission ========*/
