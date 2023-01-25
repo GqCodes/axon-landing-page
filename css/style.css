@@ -442,17 +442,6 @@ input {
   overflow: hidden;
 }
 
-.experience__overlay:nth-child(1) {
-  width: 262px;
-  margin-right: 2rem;
-}
-.experience__overlay:nth-child(2) {
-  position: absolute;
-  width: 120px;
-  top: 2rem;
-  right: 0;
-}
-
 /*======== Mission ========*/
 .mission {
   position: relative;
@@ -714,6 +703,16 @@ input {
   .subscribe__form {
     width: 470px;
     margin: 0 auto;
+  }
+  .experience__overlay:nth-child(1) {
+    width: 262px;
+    margin-right: 2rem;
+  }
+  .experience__overlay:nth-child(2) {
+    position: absolute;
+    width: 120px;
+    top: 2rem;
+    right: 0;
   }
 }
 
