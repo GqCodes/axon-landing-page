@@ -130,7 +130,9 @@ input {
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: var(--body-color);
+  box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
 }
 
 /*====== Nav ======*/
@@ -143,7 +145,8 @@ input {
 
 .nav__logo,
 .nav__toggle {
-  color: var(--white-color);
+  /* color: var(--white-color); */
+  color: var(--title-color);
 }
 
 .nav__logo {
@@ -160,8 +163,8 @@ input {
 }
 
 .nav__list .nav__link:hover {
-  border-bottom: 2px solid var(--white-color);
-  padding: 3px 0;
+  border-bottom: 1px solid var(--white-color);
+  padding: 2px 0;
   transition: 0.2s;
 }
 
@@ -205,16 +208,6 @@ input {
   right: 0;
 }
 
-/* Change header background */
-.scroll-header {
-  background-color: var(--body-color);
-  box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
-}
-
-.scroll-header .nav__logo,
-.scroll-header .nav__toggle {
-  color: var(--title-color);
-}
 /*======== Home ========*/
 .home__img {
   position: absolute;
@@ -263,6 +256,9 @@ input {
   align-items: center;
   max-width: 200px;
   margin: 0 auto;
+}
+.home__data .button {
+  border-radius: 100px;
 }
 
 /* BUTTONS */
@@ -515,6 +511,7 @@ input {
   right: 1rem;
   bottom: -1rem;
   padding: 1rem 1.5rem;
+  border-radius: 50px;
 }
 .video__button-icon {
   font-size: 1.2rem;
@@ -655,11 +652,12 @@ input {
   right: 1rem;
   bottom: -20%;
   background-color: var(--first-color);
-  padding: 0.5rem;
+  padding: 0.25rem;
   display: flex;
   opacity: 0.9;
   z-index: 10;
   transition: 0.4s;
+  border-radius: 100px;
 }
 
 .scrollup__icon {
@@ -732,8 +730,32 @@ input {
   body {
     margin: 0;
   }
+  .header {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  /*============ Change header background ============*/
+  .scroll-header {
+    background-color: var(--body-color);
+    box-shadow: 0 0 4px hsla(var(--hue-color), 64%, 15%, 0.15);
+  }
+  .scroll-header .nav__logo,
+  .scroll-header .nav__toggle {
+    color: var(--title-color);
+  }
+  .scroll-header .nav__list .nav__link:hover {
+    border-bottom: 1px solid var(--first-color);
+    padding: 2px 0;
+    transition: 0.2s;
+  }
+
   .nav {
     height: calc(3rem + 1.5rem);
+  }
+  .nav__logo,
+  .nav__toggle {
+    color: var(--white-color);
+    /* color: var(--title-color); */
   }
   .nav__link {
     color: var(--white-color);
