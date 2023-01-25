@@ -680,7 +680,7 @@ input {
 /*========== MEDIA Queries ==========*/
 
 /* For small devices */
-@media screen and (max-width: 340px) {
+/* @media screen and (max-width: 340px) {
   .place__container {
     grid-template-columns: max-content;
     justify-content: center;
@@ -689,17 +689,17 @@ input {
     padding: 0;
   }
   .experience__overlay:nth-child(1) {
-    /* width: 190px; */
+    width: 190px;
   }
   .experience__overlay:nth-child(2) {
-    /* width: 80px; */
+    width: 80px;
   }
 
   .experience__img,
   .video__container {
     padding: 0;
   }
-}
+} */
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
