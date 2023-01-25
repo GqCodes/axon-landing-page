@@ -424,7 +424,7 @@ input {
 .experience__img {
   position: relative;
   padding-bottom: 2rem;
-  height: auto;
+  height: 100%;
   display: flex;
 }
 
@@ -442,18 +442,16 @@ input {
   overflow: hidden;
 }
 
-/* .experience__overlay:nth-child(1) {
+.experience__overlay:nth-child(1) {
   width: 262px;
   margin-right: 2rem;
-  display: none;
-} */
-
-/* .experience__overlay:nth-child(2) {
+}
+.experience__overlay:nth-child(2) {
   position: absolute;
   width: 120px;
   top: 2rem;
   right: 0;
-} */
+}
 
 /*======== Mission ========*/
 .mission {
