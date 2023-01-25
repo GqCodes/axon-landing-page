@@ -416,7 +416,9 @@ input {
 }
 
 .experience__description {
-  font-size: var(--h3-font-size);
+  font-size: var(--small-font-size);
+  text-align: center;
+  display: block;
 }
 
 .experience__img {
@@ -439,13 +441,13 @@ input {
 }
 
 .experience__overlay:nth-child(1) {
-  /* width: 262px; */
+  width: 262px;
   margin-right: 2rem;
 }
 
 .experience__overlay:nth-child(2) {
   position: absolute;
-  /* width: 120px; */
+  width: 120px;
   top: 2rem;
   right: 0;
 }
