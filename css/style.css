@@ -922,8 +922,7 @@ input {
   }
 }
 
-/* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
+/* For tall screens on mobiles y desktop @media screen and (min-height: 721px) {
   body {
     margin: 0;
   }
@@ -931,4 +930,4 @@ input {
   .home__img {
     height: 640px;
   }
-}
+} */
